@@ -1,7 +1,31 @@
 /* style.css */
 
-.header {
+.flex-container {
     display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.header div
+.flex-container-left {
+    display: flex;
+    color: white;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.flex-container-right {
+    display: flex;
+    color: "white";
+    justify-content: space-between;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.object {
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
